@@ -8145,7 +8145,7 @@ if audios.Info == true then
 local Text ='⌔︙تم اختيار المقطع الصوتي لك'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '- Black TeAM .',url="t.me/RAYO_SOURCE"}},
+{{text = '- Rayo Team .',url="t.me/RAYO_SOURCE"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice='..URL.escape(audios.info)..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -8477,12 +8477,12 @@ end
 
 if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or text == 'يا سورس' then  
 Text = [[
-*- Black Team .*
+*- Rayo Team .*
  — — — — — — — — — 
      
 [⌔︙Rayo 𝖲𝗈𝗎𝗋𝖼𝖾  .](http://t.me/RAYO_SOURCE) .
      
-[⌔︙𝘛WSL Source Rayo .](http://t.me/TwSLBlackBot) .
+[⌔︙Developer Source Rayo .](http://t.me/BBB43) .
      
 ]]
 send(msg.chat_id_, msg.id_,Text)
