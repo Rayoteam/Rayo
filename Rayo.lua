@@ -8482,7 +8482,7 @@ Text = [[
      
 [⌔︙Rayo 𝖲𝗈𝗎𝗋𝖼𝖾  .](http://t.me/RAYO_SOURCE) .
      
-[⌔︙Developer Source Rayo .](http://t.me/BBB43) .
+[⌔︙Developer Source Rayo .](http://t.me/BB7MM) .
      
 ]]
 send(msg.chat_id_, msg.id_,Text)
